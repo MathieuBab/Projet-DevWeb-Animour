@@ -1,6 +1,6 @@
 <div class="container">
 
-    <div class="headerNavBar">
+    <div class="headerNavBar"> 
         <ul>
             <li><img src='./image/logo.png' alt='logo'></li>
             <li><a><i><B>Animour</B></i></a></li>
