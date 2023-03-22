@@ -12,7 +12,7 @@
     <!-- HEADER -->
 <?php include('header_bis.php'); ?>
 
-
+  
 <br><br>
 <div class="race">
     <h1 style="text-decoration: underline 2px pink">Le dalmatien</h1><br>
