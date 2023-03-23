@@ -11,7 +11,7 @@
 
     <!-- HEADER -->
     <header>
-        <?php include('header_bis.php'); ?>
+        <?php include('headerDetenteur.php'); ?>
     </header>
 
     <br><br>

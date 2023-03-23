@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
-<body>  
+<body>
 
     <!-- HEADER -->
-    <?php include('header_bis.php'); ?>
+    <?php include('headerAdoptant.php'); ?>
+
+    <div class="race">
     
     <!-- FOOTER -->
     <?php include('footer.php'); ?>

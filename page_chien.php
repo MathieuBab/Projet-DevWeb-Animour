@@ -9,21 +9,9 @@
 </head>
 <body>
 
-    <!-- HEADER -->
-    <header>
-        <?php include('header_bis.php'); ?>
-    </header>
+<!-- HEADER -->
+<?php include('headerAdoptant.php'); ?>
 
-    <!--
-    <div class="barreNavigation">
-        <nav>
-            <a class="onglet_nav" href="index.php"> Accueil </a> 
-            <a class="onglet_nav" href="animaux.php"> Animaux </a>
-            <a class="onglet_nav" href="#"> Races </a>
-            <a class="onglet_nav" href="#"> Propriétaire </a>
-        </nav>
-    </div>
--->
 
 <br><br>
     <div>

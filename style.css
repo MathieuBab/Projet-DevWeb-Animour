@@ -2,6 +2,7 @@
 body{
     background-image: url("./image/paws_bg.png");
     color: white;
+    font-family: Arial;
 }
 
 /*---------------------------------------------------------------------------*/
@@ -15,23 +16,19 @@ body{
     flex-direction: row; /* met en ligne le logo et messagerie/connexion */
     justify-content: space-between; /* Permet de mettre le logo à droite et les autres boutons à gauche */
     align-items: center; /* aligne le logo et messagerie/connexion */
-}
-
-.container{
-    width: 100%;
-    margin: auto;
     position: relative;
+    margin: auto;
 }
 
-.survol:hover{background-color: #D87387;}
+.survol:hover{
+    background-color: #D87387;
+}
 
 .active {
-  background-color: mediumvioletred;
+    background-color: mediumvioletred;
 }
 
-/*a voir, utiliser dans header_bis.php*/
-
-  ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -42,15 +39,16 @@ body{
     top: 0;
     width: 100%;
     font-family: Arial;
-  }
+    display:flex;
+    justify-content: space-around;
+}
 
-  li {
+li {
     float: left;
     text-align: center;
-    
-    }
+}
 
-  li a {
+li a {
     display: block;
     color: white;
     text-align: center;
@@ -58,8 +56,8 @@ body{
     margin-top:20px;
     font-size: 160%;
     text-decoration: none;
-    justify-content: space-around;
-  }
+    /*justify-content: space-around;*/
+}
 
 
 /*---------------------------------------------------------------------------*/
@@ -87,6 +85,24 @@ body{
     text-align: center;
     border: 3px solid pink;
     background-color: #333;
+}
+
+.message, .messagerie{ /*messagerie.php*/
+    text-align: center;
+    border: 1px solid pink;
+
+    margin: 0 100px 0 100px;
+    padding: 10px 0 10px 0;
+    display:flex;
+    justify-content: space-around;
+}
+
+.message{
+    background-color: #777;
+}
+
+.messagerie{
+    background-color: #444;
 }
 
 hr{
@@ -173,9 +189,56 @@ td{
     box-shadow: 0px, 10px 25px rgba(46, 223, 229, 0.445);
 }
 
+/*Utilise pour les barres de niveau*/
+
+.box {
+    width: 90%;
+    background-color: #ddd;
+    margin-left: 20px;
+}
+
+.box, .rad{
+    border-radius: 20px;
+}
+
+.skill {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;    
+    font-size: larger;
+}
+
+.quatrevingt{
+    width: 80%; 
+    background-color: lightpink;
+}
+
+.soixante{
+    width: 60%; 
+    background-color: lightpink;
+}
+
+.quarante{
+    width: 60%; 
+    background-color: lightpink;
+}
+
+.vingt{
+    width: 20%; 
+    background-color: lightpink;
+}
+
+.membre, .nom{
+    text-align: center;
+}
+
+
+/*FOOTER*/
 #footer{
     text-align: center;
     margin-bottom: auto;
+    font-family: Arial;
 }
 
 

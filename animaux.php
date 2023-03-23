@@ -7,36 +7,11 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
-<body>  
+<body>
 
-    <!-- HEADER
-    <header>
-        
-    </header> -->
-    <?php include('header_bis.php'); ?>
-<!--
-    <div class="barreNavigation">
-        
-        <nav>
-            
-            <a class="onglet_nav" href="index.php"> Accueil </a> 
-            <a class="onglet_nav" href="animaux.php"> Animaux </a>
-            <a class="onglet_nav" href="#"> Races </a>
-            <a class="onglet_nav" href="#"> Propriétaire </a>
+    <!-- HEADER -->
+    <?php include('headerAdoptant.php'); ?>
 
-        <ul>
-            <li><a class='survol active' href="index.php">Accueil</a></li>
-            <li><a class='survol' href="animaux.php">Animaux</a></li>
-            <li><a class='survol' href="#">Races</a></li>
-            <li><a class='survol' href="#">Propriétaires</a></li>
-        </ul>
--->
-
-
-
-        </nav>
-    </div>
-    
     <br><br>
     <div class="presentation">
         <h1> Bienvenue sur notre site Animour !</h1>

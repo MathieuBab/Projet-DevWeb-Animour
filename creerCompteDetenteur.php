@@ -6,12 +6,12 @@
     <title>Animour</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
-</head>  
+</head>
 <body>
 
     <!-- HEADER -->
     <header>
-        <?php include('header_bis.php'); ?>
+        <?php include('headerConnexion.php'); ?>
     </header>
 
     <br><br>

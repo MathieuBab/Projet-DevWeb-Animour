@@ -10,7 +10,7 @@
 <body>
 
     <!-- HEADER -->
-<?php include('header_bis.php'); ?>
+    <?php include('headerAdoptant.php'); ?>
 
 
     <br><br>
