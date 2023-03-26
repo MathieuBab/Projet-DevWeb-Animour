@@ -28,14 +28,14 @@
                 <td>
                     <div class="input_label">
                         <label for="name">Nom</label><br>
-                        <input type="text" name="name" id="name" class="" required placeholder="Nom" size="32" value="">
+                        <input type="text" name="name" id="name" class="form_input" required placeholder="Nom" size="32" value="">
                         <p id="errorMessage-creerCompte-name" class="errorMessage"></p>
                     </div> 
                 </td>
                 <td>
                     <div class="input_label">
                         <label for="firstName">Prénom</label><br>
-                        <input type="text" name="firstName" id="firstName" class="" required placeholder="Prénom" size="32" value="">
+                        <input type="text" name="firstName" id="firstName" class="form_input" required placeholder="Prénom" size="32" value="">
                         <p id="errorMessage-creerCompte-firstName" class="errorMessage"></p>
                     </div>
                 </td>
@@ -60,7 +60,7 @@
                 <td>
                     <div class="input_label">
                         <label for="birthDate">Date de naissance</label><br>
-                        <input type="date" name="birthDate" id="birthDate" class="" required value="" min="1900-01-01" max="2005-01-01">
+                        <input type="date" name="birthDate" id="birthDate" class="form_input" required value="" min="1900-01-01" max="2005-01-01">
                         <p id="errorMessage-creerCompte-birthDate" class="errorMessage"></p>
                     </div>
                 </td>
@@ -69,14 +69,14 @@
                 <td>
                     <div class="input_label">
                         <label for="mail">Adresse mail</label><br>
-                        <input type="email" name="mail" id="mail" class="" placeholder="Adresse mail" required size="25" value="">
+                        <input type="email" name="mail" id="mail" class="form_input" placeholder="Adresse mail" required size="25" value="">
                         <p id="errorMessage-creerCompte-mail" class="errorMessage"></p>
                     </div>
                 </td>
                 <td>
                     <div class="input_label">
                         <label for="confirmationMail">Confirmation mail</label><br>
-                        <input type="email" name="confirmationMail" id="confirmationMail" class="" required placeholder="Adresse mail" size="25" value="">
+                        <input type="email" name="confirmationMail" id="confirmationMail" class="form_input" required placeholder="Adresse mail" size="25" value="">
                         <p id="errorMessage-creerCompte-confirmationMail" class="errorMessage"></p>
                     </div>
                 </td>
@@ -85,14 +85,14 @@
                 <td>
                     <div class="input_label">
                         <label for="password">Mot de passe</label><br>
-                        <input type="password" name="password" id="password" class="" required placeholder="Mot de passe">
+                        <input type="password" name="password" id="password" class="form_input" required placeholder="Mot de passe">
                         <p id="errorMessage-creerCompte-password" class="errorMessage"></p>
                     </div>
                 </td>
                 <td>
                     <div class="input_label">
                         <label for="confirmationPassword">Confirmation mot de passe</label><br>
-                        <input type="password" name="confirmationPassword" id="confirmationPassword" class="" required placeholder="Mot de passe">
+                        <input type="password" name="confirmationPassword" id="confirmationPassword" class="form_input" required placeholder="Mot de passe">
                         <p id="errorMessage-creerCompte-confirmationPassword" class="errorMessage"></p>
                     </div>
                 </td>
@@ -101,7 +101,7 @@
                 <td colspan="2">
                     <div class="input_label">
                         <label for="address">Adresse</label><br>
-                        <textarea class="adresse" name="address" id="address" class="" required rows="3" ></textarea>
+                        <textarea class="adresse" name="address" id="address" class="form_textarea" required rows="3" ></textarea>
                         <p id="errorMessage-creerCompte-address" class="errorMessage"></p>
                     </div>
                 </td>
@@ -110,14 +110,14 @@
                 <td>
                     <div class="input_label">
                         <label for="postalCode">Code postal</label><br>
-                        <input type="number" name="postalCode" id="postalCode" class="" required placeholder="Code postal" min="00000" max="99999" class="bouton" value="">
+                        <input type="number" name="postalCode" id="postalCode" class="form_input" required placeholder="Code postal" min="00000" max="99999" class="bouton" value="">
                         <p id="errorMessage-creerCompte-postalCode" class="errorMessage"></p> 
                     </div>
                 </td>
                 <td>
                     <div class="input_label">
                         <label for="city">Ville</label><br>
-                        <input type="text" name="city" id="city" class="" placeholder="Ville" required value="">
+                        <input type="text" name="city" id="city" class="form_input" placeholder="Ville" required value="">
                         <p id="errorMessage-creerCompte-city" class="errorMessage"></p>
                     </div>
                 </td>
@@ -127,14 +127,14 @@
                 <td>
                     <div class="input_label">
                         <label for="phoneNumber">Numéro de Téléphone</label><br>
-                        <input type="tel" name="phoneNumber" id="phoneNumber" class="" required placeholder="Téléphone" value="">
+                        <input type="tel" name="phoneNumber" id="phoneNumber" class="form_input" required placeholder="Téléphone" value="">
                         <p id="errorMessage-creerCompte-phoneNumber" class="errorMessage"></p>
                     </div>
                 </td>
                 <td>
                     <div class="input_label">
                         <label for="job">Métier</label><br>
-                        <input type="text" name="job" id="job" class="" placeholder="Métier" required value="">
+                        <input type="text" name="job" id="job" class="form_input" placeholder="Métier" required value="">
                         <p id="errorMessage-creerCompte-job" class="errorMessage"></p>
                     </div>
                 </td>
@@ -143,7 +143,7 @@
                     <td colspan="2">
                         <div class="input_label">
                             <label for="identity">Pièce d'identité Recto/Verso</label><br>
-                            <input type="file" name="identity" id="identity" class="" accept="image/png, image/jpeg" required value="">
+                            <input type="file" name="identity" id="identity" class="form_input" accept="image/png, image/jpeg" required value="">
                             <p id="errorMessage-creerCompte-job" class="errorMessage"></p>
                         </div>
                     </td>

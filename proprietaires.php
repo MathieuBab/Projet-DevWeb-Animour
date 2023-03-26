@@ -5,6 +5,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./image/bunny2.png">
     <title>Animour</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="script.js"></script>
 </head>
 <body>
@@ -15,49 +16,45 @@
     <br><br>
     <div class="presentation">
         <h1>Propriétaires</h1>
-        <p> Venez discuter de votre futur compagnon avec nos propriétaires !</p>
-    </div>
+        <h3> Venez discuter de votre futur compagnon avec nos propriétaires !</h3><br>
+    </div><br>
    
     <table class="article">
         <tr>
-            <th><h3>Photo<h3></th>
-            <th><h3>Propriétaire</h3></th>
-            <th><h3>Description</h3></th>
-            <th><h3>Discuter</h3></th>
+            <th class="prop_photo"><h3>Photo<h3></th>
+            <th class="prop_prop"><h3>Propriétaire</h3></th>
+            <th class="prop_desc"><h3>Description</h3></th>
+            <th class="prop_disc"><h3>Discuter</h3></th>
         <tr>
     
         <tr>
-            <td><img src="./image/nesim_fintz.jpg" alt="image introuvable"></td>
-            <td>
+            <td class="prop_photo"><img src="./image/nesim_fintz.jpg" alt="image introuvable"></td>
+            <td class="prop_prop">
                 <p>Nom : Nesim</p>
                 <p>Prénom : Fintz</p>
-                <br>
-                <p>Les adoptants vous le recommendent ! </p>
-                    <div class="box"> 
-                        <div class="skill rad quatrevingt">99% satisfaits</div>
-                    </div><br>
+                <hr>
+                <p>Les adoptants vous le recommendent fortement ! </p>
+                <i class="fa-solid fa-paw"></i> <i class="fa-solid fa-paw"></i> <i class="fa-solid fa-paw"></i> <i class="fa-solid fa-paw"></i> <i class="fa-solid fa-paw"></i>
             </td>
-            <td>L'EISTI c'est la vie !</td>
-            <td>
-                <button class="" onclick="window.location.href = ''">Discuter</button><br><br>
-                <button type="submit" class="button">Voir ses animaux</button></td>
+            <td class="prop_desc">L'EISTI c'est la vie !</td>
+            <td class="prop_disc">
+                <button class="but_link" onclick="window.location.href = 'communiquerAdoptant.php'">Discuter</button><br><br>
+                <button class="but_link" onclick="window.location.href = ''">Voir ses animaux</button></td>
         </tr>
 
         <tr>
-            <td><img src="./image/radja_alex.jpg" alt="image introuvable"></td>
-            <td>
+            <td class="prop_photo"><img src="./image/radja_alex.jpg" alt="image introuvable"></td>
+            <td class="prop_prop">
                 <p>Nom : Radjesvarane</p>
                 <p>Prénom : Alexandre</p>
-                <br>
+                <hr>
                 <p>Les adoptants vous le recommendent ! </p>
-                    <div class="box"> 
-                        <div class="skill rad quatrevingt">89% satisfaits</div>
-                    </div><br>
+                <i class="fa-solid fa-paw"></i> <i class="fa-solid fa-paw"></i> <i class="fa-solid fa-paw"></i> <i class="fa-solid fa-paw"></i>
             </td>
-            <td>Cy Tech et rien d'autre</td>
-            <td>
-                <button class="" onclick="window.location.href = ''">Discuter</button><br><br>
-                <button type="submit" class="button">Voir ses animaux</button></td>
+            <td class="prop_desc">Cy Tech et rien d'autre</td>
+            <td class="prop_disc">
+                <button class="but_link" onclick="window.location.href = ''">Discuter</button><br><br>
+                <button class="but_link" onclick="window.location.href = ''">Voir ses animaux</button></td>
         </tr>
     </table>
 

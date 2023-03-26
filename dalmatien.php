@@ -5,6 +5,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./image/bunny2.png">
     <title>Animour</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="script.js"></script>
 </head>
 <body>
@@ -15,9 +16,9 @@
 
 <br><br>
 <div class="race">
-    <h1 style="text-decoration: underline 2px pink">Le dalmatien</h1><br>
+    <h1><i class="fa fa-paw"></i> Le Dalmatien <i class="fa fa-paw"></i></h1><br>
     
-    <h2>Informations sur la race</h2>
+    <h2><i class="fa fa-paw"></i> Informations sur la race</h2>
     <p class="infos">
         Le Dalmatien est un chien très populaire, connu dans le monde entier et particulièrement en France. 
         C' est un chien à l'aspect mêlant puissance et harmonie. Le corps est rectangulaire et musclé. 
@@ -30,7 +31,7 @@
     </p>
     <br>
     
-    <h2>Historique de la race</h2>
+    <h2><i class="fa fa-paw"></i> Historique de la race</h2>
     <p class="infos">
         Comme son nom l'indique, le Dalmatien trouve ses origines dans la région historique de Dalmatie, en Croatie. 
         Les premières références à cette race datent du 18e siècle. 
@@ -42,7 +43,7 @@
     </p>
     <br>
 
-    <h2>Particularités physiques</h2>
+    <h2><i class="fa fa-paw"></i> Particularités physiques</h2>
     <p class="infos">
         Son poil : court, luisant, dur et dense, et ce, sur l'ensemble de la robe du chien.
         Sa couleur : fond d'un blanc pur avec des taches rondes de 2 à 3 cm de diamètre, de couleur noire ou marron, selon que le chien appartienne à l'une ou l'autre des deux variétés. Ces taches doivent être symétriquement réparties sur tout le corps et nettement délimitées par rapport au fond blanc.
@@ -53,54 +54,54 @@
     </p>
     <br>
     
-    <h2>Comportement et caractère</h2>
+    <h2><i class="fa fa-paw"></i> Comportement et caractère</h2>
 
     <p class="infos">Affection</p>
     <div class="box"> 
-        <div class="skill rad quatrevingt">80%</div>
+        <div class="skill quatrevingt">80%</div>
     </div><br>
 
     <p class="infos">Calme</p>
     <div class="box"> 
-        <div class="skill rad soixante">60%</div>
+        <div class="skill soixante">60%</div>
     </div><br>
 
     <p class="infos">Protecteur</p>
     <div class="box"> 
-        <div class="skill rad soixante">60%</div>
+        <div class="skill soixante">60%</div>
     </div><br>
 
-    <p class="infos">Calme</p>
+    <p class="infos">Indépendant</p>
     <div class="box"> 
-        <div class="skill rad quatrevingt">80%</div>
+        <div class="skill quatrevingt">80%</div>
     </div><br>
 
     <p class="infos">Chasseur</p>
     <div class="box"> 
-        <div class="skill rad quarante">40%</div>
+        <div class="skill quarante">40%</div>
     </div><br>
 
     <p class="infos">Bruyant</p>
     <div class="box"> 
-        <div class="skill rad quarante">40%</div>
+        <div class="skill quarante">40%</div>
     </div><br><br>
 
 
-    <h2>Comportement avec les autres</h2>
+    <h2><i class="fa fa-paw"></i> Comportement avec les autres</h2>
 
     <p class="infos">Cohabitation avec les enfants</p>
     <div class="box"> 
-        <div class="skill rad quatrevingt">80%</div>
+        <div class="skill quatrevingt">80%</div>
     </div><br>
 
     <p class="infos">Sociable avec les autres animaux</p>
     <div class="box"> 
-        <div class="skill rad soixante">60%</div>
+        <div class="skill soixante">60%</div>
     </div><br>
 
     <p class="infos">Aime les étrangers</p>
     <div class="box"> 
-        <div class="skill rad soixante">60%</div>
+        <div class="skill soixante">60%</div>
     </div><br>
 
     <p class="infos">
@@ -110,16 +111,16 @@
         C'est aussi un bon chien de garde, courageux et qui adore les sorties en plein air.
     </p><br>
 
-    <h2>Education</h2>
+    <h2><i class="fa fa-paw"></i> Education</h2>
 
     <p class="infos">Intelligent</p>
     <div class="box"> 
-        <div class="skill rad quatrevingt">80%</div>
+        <div class="skill quatrevingt">80%</div>
     </div><br>
 
     <p class="infos">Obéissant</p>
     <div class="box"> 
-        <div class="skill rad vingt">20%</div>
+        <div class="skill vingt">20%</div>
     </div><br>
 
     <p class="infos">
@@ -130,26 +131,26 @@
         Il ne faut pas oublier non plus que le Dalmatien a besoin d'une socialisation précoce.
     </p><br>
 
-    <h2>Conditions de vie</h2>
+    <h2><i class="fa fa-paw"></i> Conditions de vie</h2>
 
     <p class="infos">Adapté à la vie en appartement</p>
     <div class="box"> 
-        <div class="skill rad quarante">40%</div>
+        <div class="skill quarante">40%</div>
     </div><br>
 
     <p class="infos">Bien pour les nouveaux maîtres</p>
     <div class="box"> 
-        <div class="skill rad soixante">60%</div>
+        <div class="skill soixante">60%</div>
     </div><br>
 
     <p class="infos">Aime le chaud</p>
     <div class="box"> 
-        <div class="skill rad quatrevingt">80%</div>
+        <div class="skill quatrevingt">80%</div>
     </div><br>
 
     <p class="infos">Aime le froid</p>
     <div class="box"> 
-        <div class="skill rad soixante">60%</div>
+        <div class="skill soixante">60%</div>
     </div><br>
 
     <p class="infos">
@@ -161,16 +162,16 @@
     </p><br>
 
 
-    <h2>Santé</h2>
+    <h2><i class="fa fa-paw"></i> Santé</h2>
 
     <p class="infos">Solide</p>
     <div class="box"> 
-        <div class="skill rad soixante">60%</div>
+        <div class="skill soixante">60%</div>
     </div><br>
 
     <p class="infos">Facilité à perdre du poids</p>
     <div class="box"> 
-        <div class="skill rad soixante">60%</div>
+        <div class="skill soixante">60%</div>
     </div><br>
 
     <p class="infos">
@@ -195,37 +196,37 @@
     </p><br>
 
 
-    <h2>Espérance de vie</h2>
+    <h2><i class="fa fa-paw"></i> Espérance de vie</h2>
 
     <p class="infos">
         L'espérance de vie d'un Dalmatien se situe, en moyenne, entre 12 ans et 14 ans. 
     </p><br>
 
-    <h2>Entretien et hygiène</h2>
+    <h2><i class="fa fa-paw"></i> Entretien et hygiène</h2>
 
     <p class="infos">Facilité d'entretien</p>
     <div class="box"> 
-        <div class="skill rad quatrevingt">80%</div>
+        <div class="skill quatrevingt">80%</div>
     </div><br>
 
     <p class="infos">Coût de l'entretien/</p>
     <div class="box"> 
-        <div class="skill rad soixante">60%</div>
+        <div class="skill soixante">60%</div>
     </div><br>
 
     <p class="infos">Perte de poils</p>
     <div class="box"> 
-        <div class="skill rad quatrevingt">80%</div>
+        <div class="skill quatrevingt">80%</div>
     </div><br>
 
     <p class="infos">Niveau de bave</p>
     <div class="box"> 
-        <div class="skill rad vingt">20%</div>
+        <div class="skill vingt">20%</div>
     </div><br>
 
     <p class="infos">Facilité à toiletter</p>
     <div class="box"> 
-        <div class="skill rad quatrevingt">80%</div>
+        <div class="skill quatrevingt">80%</div>
     </div><br>
 
     <p class="infos">
@@ -247,28 +248,28 @@
     </p><br>
     
 
-    <h2>Prix et budget</h2>
+    <h2><i class="fa fa-paw"></i> Prix et budget</h2>
 
     <p class="infos">
         Le prix d'achat d'un Dalmatien se situe entre 400€ et 1000€.
         Le coût d'entretien annuel d'un Dalmatien se situe entre 1350€ et 1450€. 
     </p><br>
     
-    <h2>Activité physique</h2>
+    <h2><i class="fa fa-paw"></i> Activité physique</h2>
 
     <p class="infos">Sportif</p>
     <div class="box"> 
-        <div class="skill rad quatrevingt">80%</div>
+        <div class="skill quatrevingt">80%</div>
     </div><br>
 
     <p class="infos">Niveau d'énergie</p>
     <div class="box"> 
-        <div class="skill rad quatrevingt">80%</div>
+        <div class="skill quatrevingt">80%</div>
     </div><br>
 
     <p class="infos">Potentiel à jouer</p>
     <div class="box"> 
-        <div class="skill rad quatrevingt">80%</div>
+        <div class="skill quatrevingt">80%</div>
     </div><br>
 
     <p class="infos">
@@ -278,10 +279,10 @@
         Il appréciera également les séances de jeu avec son propriétaire, notamment en plein air. 
     </p><br>
     
-    <h2>Photos des membres</h2>
+    <h2><i class="fa fa-paw"></i> Photos des membres</h2>
 
     <div class="membre">
-        <img src="./image/pongo.jpg" alt="image introuvable">
+        <img class="img_race" src="./image/pongo.jpg" alt="image introuvable">
         <div class="nom">
             <p>Pongo</p>
         </div>

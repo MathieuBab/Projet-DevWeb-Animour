@@ -14,8 +14,8 @@
 
     <br><br>
     <div class="presentation">
-        <h1> Bienvenue sur notre site Animour !</h1>
-        <p> Venez découvrir nos merveilleux animaux, et choisissez celui qui deviendra votre compagnon !</p>
+        <h1> Les animaux</h1>
+        <h3> Quel compagnon allez-vous choisir ?</h3>
         <br>
       </div>
       <br><br>

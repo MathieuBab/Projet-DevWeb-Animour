@@ -28,14 +28,14 @@
                     <td>
                         <div class="input_label">
                             <label for="name">Nom</label><br>
-                            <input type="text" name="name" id="name" class="" required placeholder="Nom" size="32" value="Fintz" readonly>
+                            <input type="text" name="name" id="name" class="form_input" required placeholder="Nom" size="32" value="Fintz" readonly>
                             <p id="errorMessage-creerCompte-name" class="errorMessage"></p>
                         </div> 
                     </td>
                     <td>
                         <div class="input_label">
                             <label for="firstName">Prénom</label><br>
-                            <input type="text" name="firstName" id="firstName" class="" required placeholder="Prénom" size="32" value="Nesim" readonly>
+                            <input type="text" name="firstName" id="firstName" class="form_input" required placeholder="Prénom" size="32" value="Nesim" readonly>
                             <p id="errorMessage-creerCompte-firstName" class="errorMessage"></p>
                         </div>
                     </td>
@@ -60,7 +60,7 @@
                     <td>
                         <div class="input_label">
                             <label for="birthDate">Date de naissance</label><br>
-                            <input type="date" name="birthDate" id="birthDate" class="" required value="1950-01-01" readonly min="1900-01-01" max="2005-01-01">
+                            <input type="date" name="birthDate" id="birthDate" class="form_input" required value="1950-01-01" readonly min="1900-01-01" max="2005-01-01">
                             <p id="errorMessage-creerCompte-birthDate" class="errorMessage"></p>
                         </div>
                     </td>
@@ -69,14 +69,14 @@
                     <td colspan="2">
                         <div class="input_label">
                             <label for="mail">Adresse mail</label><br>
-                            <input type="email" name="mail" id="mail" class="" placeholder="Adresse mail" required size="25" value="nesim.fintz@cy-tech.fr" readonly>
+                            <input type="email" name="mail" id="mail" class="form_input" placeholder="Adresse mail" required size="25" value="nesim.fintz@cy-tech.fr" readonly>
                             <p id="errorMessage-creerCompte-mail" class="errorMessage"></p>
                         </div>
                     </td>
                     <td style="display:none;">
                         <div class="input_label">
                             <label for="confirmationMail">Confirmation mail</label><br>
-                            <input type="email" name="confirmationMail" id="confirmationMail" class="" required placeholder="Adresse mail" size="25" value="" readonly>
+                            <input type="email" name="confirmationMail" id="confirmationMail" class="form_input" required placeholder="Adresse mail" size="25" value="" readonly>
                             <p id="errorMessage-creerCompte-confirmationMail" class="errorMessage"></p>
                         </div>
                     </td>
@@ -85,14 +85,14 @@
                     <td>
                         <div class="input_label">
                             <label for="password">Mot de passe</label><br>
-                            <input type="password" name="password" id="password" class="" required placeholder="Mot de passe">
+                            <input type="password" name="password" id="password" class="form_input" required placeholder="Mot de passe">
                             <p id="errorMessage-creerCompte-password" class="errorMessage"></p>
                         </div>
                     </td>
                     <td>
                         <div class="input_label">
                             <label for="confirmationPassword">Confirmation mot de passe</label><br>
-                            <input type="password" name="confirmationPassword" id="confirmationPassword" class="" required placeholder="Mot de passe">
+                            <input type="password" name="confirmationPassword" id="confirmationPassword" class="form_input" required placeholder="Mot de passe">
                             <p id="errorMessage-creerCompte-confirmationPassword" class="errorMessage"></p>
                         </div>
                     </td>
@@ -101,7 +101,7 @@
                     <td colspan="2">
                         <div class="input_label">
                             <label for="address">Adresse</label><br>
-                            <textarea class="adresse" name="address" id="address" class="" required rows="3" readonly>Av. du Parc</textarea>
+                            <textarea class="adresse" name="address" id="address" class="form_textarea" required rows="3" readonly>Av. du Parc</textarea>
                             <p id="errorMessage-creerCompte-address" class="errorMessage"></p>
                         </div>
                     </td>
@@ -110,14 +110,14 @@
                     <td>
                         <div class="input_label">
                             <label for="postalCode">Code postal</label><br>
-                            <input type="number" name="postalCode" id="postalCode" class="" required placeholder="Code postal" min="00000" max="99999" class="bouton" value="95000" readonly>
+                            <input type="number" name="postalCode" id="postalCode" class="form_input" required placeholder="Code postal" min="00000" max="99999" class="bouton" value="95000" readonly>
                             <p id="errorMessage-creerCompte-postalCode" class="errorMessage"></p> 
                         </div>
                     </td>
                     <td>
                         <div class="input_label">
                             <label for="city">Ville</label><br>
-                            <input type="text" name="city" id="city" class="" placeholder="Ville" required value="Cergy" readonly>
+                            <input type="text" name="city" id="city" class="form_input" placeholder="Ville" required value="Cergy" readonly>
                             <p id="errorMessage-creerCompte-city" class="errorMessage"></p>
                         </div>
                     </td>
@@ -127,14 +127,14 @@
                     <td>
                         <div class="input_label">
                             <label for="phoneNumber">Numéro de Téléphone</label><br>
-                            <input type="tel" name="phoneNumber" id="phoneNumber" class="" required placeholder="Téléphone" value="+331 00 00 00 00" readonly>
+                            <input type="tel" name="phoneNumber" id="phoneNumber" class="form_input" required placeholder="Téléphone" value="+331 00 00 00 00" readonly>
                             <p id="errorMessage-creerCompte-phoneNumber" class="errorMessage"></p>
                         </div>
                     </td>
                     <td>
                         <div class="input_label">
                             <label for="job">Métier</label><br>
-                            <input type="text" name="job" id="job" class="" placeholder="Métier" required value="Fondateur de l'EISTI" readonly>
+                            <input type="text" name="job" id="job" class="form_input" placeholder="Métier" required value="Fondateur de l'EISTI" readonly>
                             <p id="errorMessage-creerCompte-job" class="errorMessage"></p>
                         </div>
                     </td>
@@ -143,14 +143,14 @@
                         <td colspan="2">
                             <div class="input_label">
                                 <label for="identity">Pièce d'identité Recto/Verso</label><br>
-                                <input type="file" name="identity" id="identity" class="" accept="image/png, image/jpeg" required value="./user/carte.jpg" readonly>
+                                <input type="file" name="identity" id="identity" class="form_input" accept="image/png, image/jpeg" required value="./user/carte.jpg" readonly>
                                 <p id="errorMessage-creerCompte-job" class="errorMessage"></p>
                             </div>
                         </td>
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <input type="submit" class="but_link" name="changeProfile" id="changeProfile" value="Modifier les informations"><br>
+                        <input type="submit" class="but_link" name="changeProfile" id="changeProfile" value="Modifier les informations"><br><br>
                         <input type="submit" class="but_link" name="returnProfile" id="returnProfile" value="Annuler les modification" style="display:none;"><br style="display:none;">
                         <input type="submit" class="but_link" name="submitProfile" id="submitProfile" value="Sauvegarder les modifications" style="display:none;"><br style="display:none;">
                         <input type="submit" class="but_link" name="deleteProfile" id="deleteProfile" value="Supprimer votre compte">

@@ -10,17 +10,17 @@
 <body>
 
     <!-- HEADER -->
-    <?php include('headerAdoptant.php'); ?>
+    <?php include('headerDetenteur.php'); ?>
 
 
     <br><br>
     <div class="presentation">
         <h1> Les races</h1>
-        <p>Vous voulez en apprendre plus sur les différentes espèces ? C'est ici !</p>
+        <h3>Vous voulez en apprendre plus sur les différentes espèces ? C'est ici !</h3><br>
     </div>
     <br><br>
 
-      <div class="wrapper">
+    <div class="wrapper">
       
       <!-- LES CHIENS -->
         <div class="menu">
@@ -28,7 +28,7 @@
             <img src="./image/fox_terrier.png" alt="image introuvable">
             <hr>
             <br>
-            <button class="hollow" onclick="window.location.href = '#'">Fox terrier</button>
+            <button class="hollow" onclick="window.location.href ='fox_terrier.php'">Fox terrier</button>
         </div>
       
         <div class="menu">
@@ -44,7 +44,7 @@
             <img src="./image/cocker.png"  alt="image introuvable">
             <hr>
             <br>
-            <button class="hollow" onclick="window.location.href ='#'">Cocker spaniel</button>
+            <button class="hollow" onclick="window.location.href ='cocker_span.php'">Cocker spaniel</button>
         </div>
 
         <div class="menu">
@@ -52,7 +52,7 @@
             <img src="./image/doberman.png"  alt="image introuvable">
             <hr>
             <br>
-            <button class="hollow" onclick="window.location.href ='#'">Dogue allemand</button>
+            <button class="hollow" onclick="window.location.href ='dog_all.php'">Dogue allemand</button>
         </div>
 
         <br><br><br>
@@ -63,7 +63,7 @@
             <img src="./image/chat_europ.png"  alt="image introuvable">
             <hr>
             <br>
-            <button class="hollow" onclick="window.location.href ='#'">Chat européen</button>
+            <button class="hollow" onclick="window.location.href ='europeen.php'">Chat européen</button>
         </div>
 
         <div class="menu">
@@ -71,7 +71,7 @@
             <img src="./image/siamois.png"  alt="image introuvable">
             <hr>
             <br>
-            <button class="hollow" onclick="window.location.href ='#'">Siamois</button>
+            <button class="hollow" onclick="window.location.href ='siamois.php'">Siamois</button>
         </div>
 
         <div class="menu">
@@ -79,7 +79,7 @@
             <img src="./image/sphynx.png"  alt="image introuvable">
             <hr>
             <br>
-            <button class="hollow" onclick="window.location.href ='#'">Sphynx</button>
+            <button class="hollow" onclick="window.location.href ='sphynx.php'">Sphynx</button>
         </div>
 
         <div class="menu">
@@ -87,7 +87,7 @@
             <img src="./image/exotic_shorthair.png"  alt="image introuvable">
             <hr>
             <br>
-            <button class="hollow" onclick="window.location.href ='#'">Exotic shorthair</button>
+            <button class="hollow" onclick="window.location.href ='exotic_short.php'">Exotic shorthair</button>
         </div>
 
         <div class="menu">
@@ -95,7 +95,7 @@
             <img src="./image/american_shorthair.png"  alt="image introuvable">
             <hr>
             <br>
-            <button class="hollow" onclick="window.location.href ='#'">American shorthair</button>
+            <button class="hollow" onclick="window.location.href ='american_short.php'">American shorthair</button>
         </div>
 
         <div class="menu">
@@ -103,7 +103,7 @@
             <img src="./image/angora_turc.png"  alt="image introuvable">
             <hr>
             <br>
-            <button class="hollow" onclick="window.location.href ='#'">Angora turc</button>
+            <button class="hollow" onclick="window.location.href ='angora_turc.php'">Angora turc</button>
         </div>
 
         <br><br><br>
@@ -115,11 +115,11 @@
             <img src="./image/rabbit.png"  alt="image introuvable">
             <hr>
             <br>
-            <button class="hollow" onclick="window.location.href ='#'">Lapin</button>
+            <button class="hollow" onclick="window.location.href ='lapin.php'">Lapin</button>
         </div>
 
     
-      </div>
+    </div>
 
     <!-- FOOTER -->
     <?php include('footer.php'); ?>

@@ -28,11 +28,11 @@
                         <div><h4>Se connecter</h4></div>
                         <div class="input_label">
                             <label for="mail">Adresse mail</label>
-                            <input type="email" name="mail" id="mail" class="" placeholder="Adresse mail" required>
+                            <input type="email" name="mail" id="mail" class="form_input_login" placeholder="Adresse mail" required>
                         </div><br>
                         <div class="input_label">
                             <label for="password">Mot de passe</label>
-                            <input type="password" name="password" id="password" class="" placeholder="Mot de passe" required>
+                            <input type="password" name="password" id="password" class="form_input_login" placeholder="Mot de passe" required>
                         </div>
                         <p id="errorMessage-login-name" class="errorMessage"></p>
                         <div class="input_label">

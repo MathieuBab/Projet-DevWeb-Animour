@@ -8,59 +8,61 @@ body{
 /*---------------------------------------------------------------------------*/
 /*HEADER*/
 
-/*https://www.youtube.com/watch?v=ky5mAcSNJ5M*/
 .headerNavBar{
-    width: 100%;
-    height: 80px;
-    display: flex;
-    flex-direction: row; /* met en ligne le logo et messagerie/connexion */
-    justify-content: space-between; /* Permet de mettre le logo à droite et les autres boutons à gauche */
-    align-items: center; /* aligne le logo et messagerie/connexion */
-    position: relative;
-    margin: auto;
+    width: 100%; 
+    height: 80px; 
+    display: flex; /* Gère l'affichage des élèments enfants */
+    align-items: center; /* Alignement des éléments enfants au centre */
 }
 
 .survol:hover{
-    background-color: #D87387;
+    background-color: #D87387; 
 }
 
 .active {
-    background-color: mediumvioletred;
+    background-color: mediumvioletred; 
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden; /* Masquage des éléments qui dépassent de la barre de navigation */
     background-color:  rgb(222, 84, 130);
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-    width: 100%;
-    font-family: Arial;
-    display:flex;
-    justify-content: space-around;
+    position: sticky; /* Positionnement de la barre de navigation en mode collant */
+    top: 0; 
+    width: 100%; 
+    font-family: Arial; 
+    display:flex; /* Gère l'affichage des élèments enfants */
+    justify-content: space-around; /* Espace égal autour des éléments*/
 }
 
 li {
-    float: left;
+    float: left; 
     text-align: center;
 }
 
-li a {
-    display: block;
+li a { /*li ayant pour enfant a*/
+    display: block; /* Affichage en tant que bloc */
     color: white;
-    text-align: center;
-    padding: 14px 60px;
-    margin-top:20px;
+    text-align: center; 
+    padding: 14px 60px; 
+    margin-top:20px; 
     font-size: 160%;
     text-decoration: none;
-    /*justify-content: space-around;*/
 }
 
-
 /*---------------------------------------------------------------------------*/
+
+.cadreAccueil{ /* Permet d'avoir une présention qui est similaire à la page race : un encadré gris à bordure rose */
+    border: 3px solid pink;
+    border-radius: 30px;
+    background-color: #333;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
 
 .wrapper{
     text-align: center;
@@ -76,21 +78,22 @@ li a {
     text-align: center;
     margin-top: auto ;
     margin-left: 50px;
-    /*margin-right: auto;*/
     vertical-align: top;
-    display: inline-block; /*pour etre sur la meme ligne*/
+    display: inline-block; /* Permet à l'élément d'être en ligne avec les éléments précédents et suivants */
 }
 
 .presentation{
     text-align: center;
     border: 3px solid pink;
     background-color: #333;
+    border-radius: 20px;
 }
 
-.message, .messagerie{ /*messagerie.php*/
+/*messagerie.php*/
+
+.message, .messagerie{ 
     text-align: center;
     border: 1px solid pink;
-
     margin: 0 100px 0 100px;
     padding: 10px 0 10px 0;
     display:flex;
@@ -101,9 +104,28 @@ li a {
     background-color: #777;
 }
 
+.message:hover{
+    background-color: #777;
+    transform:scale(1.01); /* L''élément est agrandie de 1% par rapport à sa taille originale */
+}
+
 .messagerie{
     background-color: #444;
 }
+
+.etat, .objet, .correspondant, .entete, .action{
+    width: 20%;
+}
+
+.notation {
+    appearance: none;
+    width: 30%;
+    height: 10px;
+    border-radius: 4px;
+    background-color: #333;
+}
+
+/*---*/
 
 hr{
     width: 170px;
@@ -119,7 +141,6 @@ h2{
     text-align: left;
     margin-left: 100px;
     text-decoration: underline 4px dotted palevioletred;
-    text-decoration-skip: 6px ;
 }
 
 .race{
@@ -134,13 +155,193 @@ h2{
     width: 90%;
     font-family: Arial;
     font-size: larger;
+    text-align: justify;
+}
+
+/*communiquer.php*/
+
+.chat_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Espace égal entre les éléments*/
+    border: 1px solid pink;
+    background-color:rgba(90,90,90,0.5); /* 0.5 - semi-transparent */
+    width: 60%;
+    margin: auto;
+    padding: 6px;
+}
+  
+.chat_box {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+}
+
+.chat_message{
+    display: flex;
+    justify-content: space-between;
+}
+
+.chat_message_envoye, .chat_message_recu {
+    margin-bottom:6px;
+    border-radius: 10px;
+}
+
+.chat_message_recu{
+    border: 1px solid lightgrey;
+    background-color: rgba(211, 211, 211, 0.75);
+    border-radius: 10px;
+}
+
+.chat_message_envoye{
+    border: 1px solid pink;
+    background-color:rgba(255, 192, 203, 0.75);
+}
+
+.chat_user {
+    font-weight: bold;
+}
+
+.chat_message,.chat_message_adoption, .chat_text {
+    margin: 0 5px 0 5px;
+}
+
+.chat_message_adoption{
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    margin: 5px 0 5px 0;
+}
+
+.chat_message_resultat{
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#form_communiquer {
+    display: flex;
+    align-items: center;
+    height: 20%;
+}
+
+.form_input, .communiquer_input, .form_input_login{
+    flex: 1; /* L'élément flexible prendra 100% de l'espace disponible */
+}
+
+.form_input, .communiquer_input{
+    padding: 5px;
+}
+
+.form_input, .form_input_login{
+    margin-top: 5px;
+    width:93%;
+}
+
+.form_input_login{
+    padding: 3px;
+}
+
+.form_hr{
+    width: 95%;
+    border: 2px solid lightcoral;
+    border-radius: 1px;
+}
+
+.communiquer_input{
+    margin: 5px 10px 0 0;
+}
+
+/*noter.php*/
+
+.rating_container{
+    display: flex;
+    justify-content: center;
+}
+
+.rating{
+    display: flex;
+    flex-direction: row-reverse; /* Les éléments sont disposés dans la direction opposée au texte */
+    padding: 10px 5px 10px 5px;
+    border: 3px solid pink
+}
+
+.rating input{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; /* Le curseur devient une main lorsqu'il survole les pattes */
+    appearance: none; /* Fait disparaître l'apparence d'origine */
+}
+
+.rating input::before{
+    content: '\f1b0'; /* Apparence de la patte */
+    font-family: fontAwesome; /* Bibliothèque pour utiliser l'icône de la patte */
+    font-size: 34px;
+    color: darkgrey;
+    transition: 0.75s;
+}
+
+.rating input:hover ~ input::before, /* Lorsque le curseur survole les pattes cible les éléments possédant le même parent */
+.rating input:hover::before, /* Cible la patte survolée */
+.rating input:checked ~ input::before, /* Lorsque les pattes sont cliquées (Cible des éléments possédant le même parent) */
+.rating input:checked::before{ /* Cible la patte cliquées */
+    color:pink;
+}
+
+/* Responsive <3 */
+/* Modifie le css en fonction de la taille de l'écran ou fenêtre */
+
+@media screen and (min-width: 1150px){ /* au dessus de 1150px on appplique ce css */
+    .chat_message_envoye{
+        margin-left: 70%;
+    }
+    .chat_message_recu {
+        margin-right: 70%;
+    }
+}
+
+@media screen and (max-width: 1200px){ /* en dessous de 1200px on appplique ce css */
+    .prop_desc, .offres_race, .page_race, .objet{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .prop_photo, .offres_nom, .page_nom, .etat{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1500px){
+    .offres_desc, .page_desc, .entete{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .but_link_send2:nth-child(3){
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 600px){ 
+    .communiquer_input{
+        width:60%;
+    }
+    .offres_modif{
+        display:none;
+    }
 }
 
 /*TABLEAUX SITUES DANS PLUSIEURS PAGES*/
 
 table, th, td {
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; /*margin left et right pour centrer le tableau*/
+    border-radius: 10px;
     border-collapse: collapse;
 }
 
@@ -157,36 +358,102 @@ th{
 }
 
 td{
-    background-color: #333;
+    background-color: #333;  
 }
 
 .article{
-    border-collapse: separate;
+    border-collapse: separate; /*bordures separées*/
     border-spacing: 0 15px;
+}
+
+.lien-race{
+    color: white;
+}
+
+/*button & input type=submit*/
+
+.hollow, .but_link, .but_link_msg, .but_link_send,.but_link_send2, .but_link_adoption{
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.hollow:hover, .but_link:hover, .but_link_msg:hover, .but_link_send:hover, .but_link_send2:hover, .but_link_adoption:hover{
+    background: pink;
+    color: black;
+    font-weight: bolder;
+    box-shadow: 0px, 10px 25px rgba(46, 223, 229, 0.445);
+}
+
+.hollow, .but_link, .but_link_msg, .but_link_adoption{
+    border-radius: 45px; 
+}
+
+.hollow, .but_link{
+    font-size: 90%;
+}
+
+.hollow:hover, .but_link:hover{
+    font-size: medium;
 }
 
 .hollow{
     width: 150px;
     height: 45px;
-    border-radius: 45px;
-    cursor: pointer;
-    border: none;
-    text-transform: uppercase;
-    letter-spacing: 0px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
-    font-size: 90%;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
 }
 
 .hollow:hover{
-    background: pink;
     transform: translateY(-7px);
-    color: black;
-    font-weight: bolder;
-    font-size: medium;
-    box-shadow: 0px, 10px 25px rgba(46, 223, 229, 0.445);
+}
+
+.but_link{
+    width: 100%;
+    height: 10%;
+}
+
+.but_link:hover{
+    transform: translateY(-5px);
+}
+
+.but_link_msg, .but_link_adoption{
+    width: fit-content;
+    font-size: 75%;
+    padding: 7px;
+}
+
+.but_link_msg:hover, .but_link_adoption:hover{
+    transform: translateY(-3px);
+}
+
+.but_link_send, .but_link_send2{
+    background: rgb(255, 200, 210);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.but_link_send{
+    width: fit-content;
+    font-size: 75%;
+    margin-top: 5px;
+}
+
+.but_link_send2{
+    width: fit-content;
+    font-size: 65%;
+    margin: 5px 5px 0 0;
+}
+
+.but_link_send:hover, .but_link_send2:hover{
+    transform: translateY(-3px);
+}
+
+.but_link_adoption{
+    margin: 10px 4% 10px 4%
 }
 
 /*Utilise pour les barres de niveau*/
@@ -195,11 +462,9 @@ td{
     width: 90%;
     background-color: #ddd;
     margin-left: 20px;
-}
-
-.box, .rad{
     border-radius: 20px;
 }
+
 
 .skill {
     text-align: right;
@@ -207,32 +472,60 @@ td{
     padding-bottom: 10px;
     color: black;    
     font-size: larger;
+    background: linear-gradient(0.25turn, cyan, blue, magenta, lightpink); /* Le turn permet de colorer la barre horizontalement selon Eliza et Mélisande (verticalement selon Mathieu) */
+    border-radius: 20px;
+}
+
+.cent{
+    width: 100%; 
 }
 
 .quatrevingt{
     width: 80%; 
-    background-color: lightpink;
 }
 
 .soixante{
     width: 60%; 
-    background-color: lightpink;
 }
 
 .quarante{
     width: 60%; 
-    background-color: lightpink;
 }
 
 .vingt{
     width: 20%; 
-    background-color: lightpink;
+}
+
+.neufneuf{
+    width: 99%; 
+}
+
+.quatrevneuf{
+    width: 89%; 
 }
 
 .membre, .nom{
     text-align: center;
 }
 
+.img_race{
+    border: 2px solid pink;
+    border-radius: 5px;
+}
+
+.img_accueil{
+    width:96%;
+}
+
+.img_race:hover{
+    transform: translateY(-1px); /* Remonte d'un pixel */
+    box-shadow: 10px 10px 10px -10px rgba(255, 192, 203, 0.5), 
+    -2px -2px 8px rgba(255,255,255,0.1);
+}
+
+.fa{
+    color: pink;
+}
 
 /*FOOTER*/
 #footer{
